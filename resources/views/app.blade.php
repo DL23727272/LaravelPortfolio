@@ -7,7 +7,7 @@
     <title>DL Portfolio</title>
 
     <link rel="shortcut icon" type="x-icon" href="favicon.jpg">
-
+    <link rel="shortcut icon" href="{{ asset('assets/images/LOGO.png') }}" type="image/x-icon" />
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 

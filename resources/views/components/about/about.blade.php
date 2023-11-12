@@ -117,7 +117,7 @@
             <i class="fas fa-graduation-cap"></i>
             <span>2022 - Present</span>
             <h3>BSIT- Web dev</h3>
-            <p>2nd year College Student with a Course of BSIT-Web dev at
+            <p>3rd year College Student with a Course of BSIT-Web dev at
                 Ilocos Sur Polytechnic State College and expected to Graduate at 2025</p>
         </div>
     </div>

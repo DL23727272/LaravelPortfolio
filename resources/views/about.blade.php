@@ -11,9 +11,12 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
+    <!-- css link  -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+    <!-- Alertify sakit sa ulo -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
 
 </head>
 <body>
@@ -21,5 +24,13 @@
     @extends('components.about.about')
 
 
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        alertify.set('notifier', 'position', 'top-right');
+        var msg = alertify.notify('Welcome to my About Page!', 'custom', 2, function(){console.log('dismissed');});
+        msg.delay(5);
+    </script>
 </body>
 </html>
